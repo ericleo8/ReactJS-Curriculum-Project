@@ -1,26 +1,3 @@
-// function PostItem({ content, likes, liked, onLike, onDelete }) {
-//   return (
-//     <div className="post">
-//       <p>{content}</p>
-
-//       <div className="actions">
-//         <button
-//           onClick={onLike}
-//           className={liked ? "liked" : ""}
-//         >
-//           {liked ? "Unlike" : "Like"}
-//         </button>
-
-//         <span>{likes} likes</span>
-
-//         <button onClick={onDelete}>Delete</button>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default PostItem;
-
 import { useState } from "react";
 
 function PostItem({
