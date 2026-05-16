@@ -155,6 +155,11 @@ body {
   margin-bottom: 8px;
 }
 
+.post p {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
 
